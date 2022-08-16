@@ -1,25 +1,59 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Draggable from "react-draggable";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <div
+        style={{
+          textAlign: "center",
+          padding: "9px",
+          backgroundColor: "#bd51ff",
+          fontSize: "20px",
+          color: "#fff",
+        }}
+      >
+        Make Square using these blocks
+      </div>
+      <div style={{ height: "99.9vh", width: "100%", }}>
+        {/* <div> */}
+        <Draggable bounds="body">
+          <img
+            src="./images/square/s1.png"
+            alt="img"
+            style={{ position: "absolute",  paddingTop:'50px' }}
+          />
+        </Draggable>
+        <Draggable bounds="body">
+          <img
+            src="./images/square/s2.png"
+            alt="img"
+            style={{ position: "absolute",  paddingTop:'50px' }}
+          />
+        </Draggable>
+        <Draggable bounds="body">
+          <img
+            src="./images/square/s3.png"
+            alt="img"
+            style={{ position: "absolute",  paddingTop:'50px'  }}
+          />
+        </Draggable>
+        <Draggable bounds="body">
+          <img
+            src="./images/square/s4.png"
+            alt="img"
+            style={{ position: "absolute",  paddingTop:'50px'  }}
+          />
+        </Draggable>
+        <Draggable bounds="body">
+          <img
+            src="./images/square/s5.png"
+            alt="img"
+            style={{ position: "absolute",  paddingTop:'50px' }}
+          />
+        </Draggable>
+        {/* </div> */}
+      </div>
     </div>
   );
 }
-
-export default App;
