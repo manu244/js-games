@@ -1,58 +1,52 @@
 import React from "react";
 import Draggable from "react-draggable";
+import "./App.css";
 
 export default function App() {
   return (
     <div>
-      <div
-        style={{
-          textAlign: "center",
-          padding: "9px",
-          backgroundColor: "#bd51ff",
-          fontSize: "20px",
-          color: "#fff",
-        }}
-      >
-        Make Square using these blocks
-      </div>
-      <div style={{ height: "99.9vh", width: "100%", }}>
-        {/* <div> */}
-        <Draggable bounds="body">
-          <img
-            src="./images/square/s1.png"
-            alt="img"
-            style={{ position: "absolute",  paddingTop:'50px' }}
-          />
+      <div className="main-section">Make Square using these blocks</div>
+      <div className="sub-section">
+        <Draggable handle="strong">
+        <div className="relative">
+            <strong className="cursor">
+              <div className="s1">&#9769;</div>
+            </strong>
+            <img src="./images/square/s1.png" alt="img" className="img" />
+          </div>
         </Draggable>
-        <Draggable bounds="body">
-          <img
-            src="./images/square/s2.png"
-            alt="img"
-            style={{ position: "absolute",  paddingTop:'50px' }}
-          />
+        <Draggable handle="strong">
+        <div className="relative">
+            <strong className="cursor">
+              <div className="s2">&#9769;</div>
+            </strong>
+            <img src="./images/square/s2.png" alt="img" className="img" />
+          </div>
         </Draggable>
-        <Draggable bounds="body">
-          <img
-            src="./images/square/s3.png"
-            alt="img"
-            style={{ position: "absolute",  paddingTop:'50px'  }}
-          />
+        <Draggable handle="strong">
+        <div className="relative">
+            <strong className="cursor">
+              <div className="s3">&#9769;</div>
+            </strong>
+            <img src="./images/square/s3.png" alt="img" className="img" />
+          </div>
         </Draggable>
-        <Draggable bounds="body">
-          <img
-            src="./images/square/s4.png"
-            alt="img"
-            style={{ position: "absolute",  paddingTop:'50px'  }}
-          />
+        <Draggable handle="strong">
+        <div className="relative">
+            <strong className="cursor">
+              <div className="s4">&#9769;</div>
+            </strong>
+            <img src="./images/square/s4.png" alt="img" className="img" />
+          </div>
         </Draggable>
-        <Draggable bounds="body">
-          <img
-            src="./images/square/s5.png"
-            alt="img"
-            style={{ position: "absolute",  paddingTop:'50px' }}
-          />
+        <Draggable handle="strong">
+          <div className="relative">
+            <strong className="cursor">
+              <div className="s5">&#9769;</div>
+            </strong>
+            <img src="./images/square/s5.png" alt="img" className="img" />
+          </div>
         </Draggable>
-        {/* </div> */}
       </div>
     </div>
   );
