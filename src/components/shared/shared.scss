@@ -1,0 +1,183 @@
+.main-section {
+  text-align: center;
+  padding: 4px;
+  background-color: #bd51ff;
+  font-size: 20px;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* instruction css */
+
+//variables
+$bg-color: #fff; //container background-color;
+$accent-font-color: #fd5200; //accent font color;
+$spinner-dimensions: 150px; //width and height of spinner block
+$spinner-1-bg: #47a8bd; //spinner-1 background-color
+
+//mixins
+
+//position absolute mixin
+@mixin position-absolute($top: null, $left: null, $right: null, $bottom: null) {
+  position: absolute;
+  top: $top;
+  left: $left;
+  right: $right;
+  bottom: $bottom;
+}
+
+/* YOU NEED THESE STYLES */
+
+/* spinner style */
+.spinner-eff {
+  position: relative;
+  width: $spinner-dimensions;
+  height: $spinner-dimensions;
+
+  &:before,
+  &:after {
+    content: "";
+    display: block;
+  }
+
+  .spinner-bar {
+    &:before,
+    &:after {
+      content: "";
+      display: block;
+    }
+  }
+}
+
+/* spinner-1 styles */
+.spinner-eff.spinner-eff-1 {
+  @keyframes rotation-top {
+    0% {
+      transform: rotate(0deg);
+      opacity: 0.5;
+    }
+
+    20% {
+      transform: rotate(360deg);
+      opacity: 1;
+    }
+
+    80% {
+      transform: rotate(360deg);
+      opacity: 1;
+    }
+
+    100% {
+      transform: rotate(360deg);
+      opacity: 0.5;
+    }
+  }
+
+  @keyframes rotation-right {
+    0% {
+      transform: rotate(0deg);
+      opacity: 0.5;
+    }
+
+    20% {
+      transform: rotate(0deg);
+      opacity: 0.5;
+    }
+
+    40% {
+      transform: rotate(360deg);
+      opacity: 1;
+    }
+
+    80% {
+      transform: rotate(360deg);
+      opacity: 1;
+    }
+
+    100% {
+      transform: rotate(360deg);
+      opacity: 0.5;
+    }
+  }
+
+  @keyframes rotation-bottom {
+    0% {
+      transform: rotate(0deg);
+      opacity: 0.5;
+    }
+
+    40% {
+      transform: rotate(0deg);
+      opacity: 0.5;
+    }
+
+    60% {
+      transform: rotate(360deg);
+      opacity: 1;
+    }
+
+    80% {
+      transform: rotate(360deg);
+      opacity: 1;
+    }
+
+    100% {
+      transform: rotate(360deg);
+      opacity: 0.5;
+    }
+  }
+
+  @keyframes rotation-left {
+    0% {
+      transform: rotate(0deg);
+      opacity: 0.5;
+    }
+
+    60% {
+      transform: rotate(0deg);
+      opacity: 0.5;
+    }
+
+    80% {
+      transform: rotate(360deg);
+      opacity: 1;
+    }
+
+    100% {
+      transform: rotate(360deg);
+      opacity: 0.5;
+    }
+  }
+
+  .bar {
+    width: 0;
+    height: 0;
+    border: $spinner-dimensions/2 solid transparent;
+    @include position-absolute($top: 0, $left: 0);
+    transform: rotate(0deg);
+    opacity: 0.5;
+
+    &-top {
+      border-top: $spinner-dimensions/2 solid $spinner-1-bg;
+      animation: rotation-top 3.6s linear 0s infinite;
+    }
+
+    &-right {
+      border-right: $spinner-dimensions/2 solid $spinner-1-bg;
+      animation: rotation-right 3.6s linear 0s infinite;
+    }
+
+    &-bottom {
+      border-bottom: $spinner-dimensions/2 solid $spinner-1-bg;
+      animation: rotation-bottom 3.6s linear 0s infinite;
+    }
+
+    &-left {
+      border-left: $spinner-dimensions/2 solid $spinner-1-bg;
+      animation: rotation-left 3.6s linear 0s infinite;
+    }
+  }
+}
+
+/* instruction css end*/
