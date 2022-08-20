@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 
-function AlertDialog(props) {
+function ReloadDialog(props) {
   const [show, setShow] = useState(false);
 
   const handleClose = () =>{
@@ -11,8 +11,8 @@ function AlertDialog(props) {
   }
 
   const handleOk = () => {
+    window.location.reload();
     setShow(false);
-    props.eventOk(true);
   }
 
   const reload = () => {
@@ -46,4 +46,4 @@ function AlertDialog(props) {
   );
 }
 
-export default AlertDialog;
+export default ReloadDialog;

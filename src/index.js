@@ -17,6 +17,7 @@ root.render(
         <Route path="/" element={<App />}>
           <Route index element={<Home />} />
           <Route path="game1" element={<Game1 />} />
+          <Route path="*" element={<Home />} />
         </Route>
       </Routes>
     </BrowserRouter>

@@ -12,9 +12,6 @@ function Game1(props) {
 
   };
 
-  function refreshPage() {
-    window.location.reload();
-  }
   return (
     <div>
       <InstructionDialog
@@ -22,7 +19,7 @@ function Game1(props) {
         eventOk={eventOk}
         body="Make Square using these blocks">
       </InstructionDialog>
-      <GameHeader refreshPage={refreshPage} />
+      <GameHeader />
       <div className="sub-section">
         <Draggable
           bounds="parent"
