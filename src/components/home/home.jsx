@@ -20,9 +20,7 @@ function Home(props) {
               <Card.Title>
                 <i className="bi bi-box font-size-40 link-primary"></i>
               </Card.Title>
-              <Card.Text className="bg-primary"><Link to="/game1">Play
-
-              </Link></Card.Text>
+              <Card.Text className="bg-primary"><Link to="/game1">Play</Link></Card.Text>
             </Card.Body>
           </Card>
           <Card border="secondary" style={{ width: "8rem" }}>
@@ -31,7 +29,7 @@ function Home(props) {
               <Card.Title>
                 <i className="bi bi-box font-size-40 link-secondary"></i>
               </Card.Title>
-              <Card.Text className="bg-secondary">Play</Card.Text>
+              <Card.Text className="bg-secondary"><Link to="/game2">Play</Link></Card.Text>
             </Card.Body>
           </Card>
         </Row>
