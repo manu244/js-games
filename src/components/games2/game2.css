@@ -1,7 +1,7 @@
 
   .sub-section {
-    height: 70.9vh;
-    width: 83vw;
+    height: 99.9vh;
+    width: 98vw;
     /* padding: 32px 10px 10px 10px; */
   }
   
@@ -13,7 +13,7 @@
     position: absolute;
     cursor: grabbing;
     top: 95px;
-    left: 262px;
+    left: 64px;
     color: #fff;
     font-size: x-large;
     z-index: 1;
@@ -21,8 +21,8 @@
   .s2 {
     position: absolute;
     cursor: grabbing;
-    top: 330px;
-    left: 222px;
+    top: 251px;
+    left: 85px;
     color: #fff;
     font-size: x-large;
     z-index: 1;
@@ -30,8 +30,8 @@
   .s3 {
     position: absolute;
     cursor: grabbing;
-    top: 155px;
-    left: 104px;
+    top: 56px;
+    left: 164px;
     color: #fff;
     font-size: x-large;
     z-index: 1;
@@ -39,8 +39,8 @@
   .s4 {
     position: absolute;
     cursor: grabbing;
-    top: 266px;
-    left: 151px;
+    top: 48px;
+    left: 190px;
     color: #fff;
     font-size: x-large;
     z-index: 1;
@@ -48,8 +48,27 @@
   .s5 {
     position: absolute;
     cursor: grabbing;
+    top: 118px;
+    left: 121px;
+    color: #fff;
+    font-size: x-large;
+    z-index: 1;
+  }
+  .s6 {
+    position: absolute;
+    cursor: grabbing;
     top: 30px;
-    left: 40px;
+    left: 112px;
+    color: #fff;
+    font-size: x-large;
+    z-index: 1;
+  }
+
+  .s7 {
+    position: absolute;
+    cursor: grabbing;
+    top: 147px;
+    left: 263px;
     color: #fff;
     font-size: x-large;
     z-index: 1;
@@ -60,5 +79,6 @@
   
   .inline-block{
     display: inline-block;
-    margin-top: 30px;
+    position: absolute;
+    margin-top: 42px;
   }
