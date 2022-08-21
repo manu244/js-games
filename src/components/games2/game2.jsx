@@ -75,7 +75,7 @@ function Game2(props) {
               <div className="s4">&#9769;</div>
             </strong>
             <svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 395 124" width="395" height="124">
-              <path id="Layer copy" fill="#7fd13b" fill-rule="evenodd" class="s0" d="m270.8 0l123.4 123.4h-268.2l-123.5-123.4zm15.3 283.5l133.5 133.5 134.1-134.1-133.5-133.6z"/>
+              <path id="Layer copy" fill="#ff0000" fill-rule="evenodd" class="s0" d="m270.8 0l123.4 123.4h-268.2l-123.5-123.4zm15.3 283.5l133.5 133.5 134.1-134.1-133.5-133.6z"/>
             </svg>
           </div>
         </Draggable>
@@ -105,7 +105,7 @@ function Game2(props) {
               <div className="s6">&#9769;</div>
             </strong>
             <svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 245 123" width="245" height="123">
-              <path id="Layer" fill="#f0ad00" fill-rule="evenodd" class="s0" d="m-0.1 0.4h245.1l-122.5 122.5z"/>
+              <path id="Layer" fill="#8a2be2" fill-rule="evenodd" class="s0" d="m-0.1 0.4h245.1l-122.5 122.5z"/>
             </svg>
           </div>
         </Draggable>
@@ -120,7 +120,7 @@ function Game2(props) {
               <div className="s7">&#9769;</div>
             </strong>
             <svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 544 272" width="544" height="272">
-              <path id="Layer" fill="#60b5cc" fill-rule="evenodd" class="s0" d="m541.4 271.9h-535.8l267.9-267.9z"/>
+              <path id="Layer" fill="#5f9ea0" fill-rule="evenodd" class="s0" d="m541.4 271.9h-535.8l267.9-267.9z"/>
             </svg>
           </div>
         </Draggable>
