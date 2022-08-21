@@ -1,12 +1,13 @@
 
   .g2-section {
-    height: 99.9vh;
-    width: 98vw;
+    /* height: 99.9vh;
+    width: 98vw; */
     /* padding: 32px 10px 10px 10px; */
   }
   
   svg {
     position: absolute;
+    left: 0px;
     scale: 0.5;
   }
   .g2s1 {
