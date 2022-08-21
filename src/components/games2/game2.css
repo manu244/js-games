@@ -1,24 +1,24 @@
 
-  .sub-section {
+  .g2-section {
     height: 99.9vh;
     width: 98vw;
     /* padding: 32px 10px 10px 10px; */
   }
   
-  .g2-img {
+  svg {
     position: absolute;
-    scale: 0.4;
+    scale: 0.5;
   }
-  .s1 {
+  .g2s1 {
     position: absolute;
     cursor: grabbing;
-    top: 95px;
-    left: 64px;
+    top: 110px;
+    left: 75px;
     color: #fff;
     font-size: x-large;
     z-index: 1;
   }
-  .s2 {
+  .g2s2 {
     position: absolute;
     cursor: grabbing;
     top: 251px;
@@ -27,7 +27,7 @@
     font-size: x-large;
     z-index: 1;
   }
-  .s3 {
+  .g2s3 {
     position: absolute;
     cursor: grabbing;
     top: 56px;
@@ -36,7 +36,7 @@
     font-size: x-large;
     z-index: 1;
   }
-  .s4 {
+  .g2s4 {
     position: absolute;
     cursor: grabbing;
     top: 48px;
@@ -45,7 +45,7 @@
     font-size: x-large;
     z-index: 1;
   }
-  .s5 {
+  .g2s5 {
     position: absolute;
     cursor: grabbing;
     top: 118px;
@@ -54,7 +54,7 @@
     font-size: x-large;
     z-index: 1;
   }
-  .s6 {
+  .g2s6 {
     position: absolute;
     cursor: grabbing;
     top: 30px;
@@ -64,7 +64,7 @@
     z-index: 1;
   }
 
-  .s7 {
+  .g2s7 {
     position: absolute;
     cursor: grabbing;
     top: 147px;
