@@ -11,7 +11,7 @@ In the project directory, you can run:
 
 ### `npm start`
 <h3>Home Screen</h3>
-<img src="https://github.com/manu244/js-games/blob/main/public/images/s1.png" style="height:350px">
+<img src="https://github.com/manu244/js-games/blob/main/public/images/s2.png" style="height:350px">
 
 <h3>Game screen</h3>
 <img src="https://github.com/manu244/js-games/blob/main/public/images/s1.png" style="height:350px">
