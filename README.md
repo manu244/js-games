@@ -1,5 +1,6 @@
 # Java script Puzzel game using react
 
+<h1></h1>
 <h1>Puzzel Game Draggable</h1>
 This project is designed using React Draggable Lib.
 https://www.npmjs.com/package/react-draggable
@@ -9,7 +10,11 @@ https://www.npmjs.com/package/react-draggable
 In the project directory, you can run:
 
 ### `npm start`
-<img src="">
+<h3>Home Screen</h3>
+<img src="https://github.com/manu244/js-games/blob/main/public/images/s1.png">
+
+<h3>Game screen</h3>
+<img src="https://github.com/manu244/js-games/blob/main/public/images/s1.png">
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
