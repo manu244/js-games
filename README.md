@@ -1,4 +1,4 @@
-# Java script game using react
+# Java script Puzzel game using react
 
 This project is designed using React Draggable Lib.
 https://www.npmjs.com/package/react-draggable
