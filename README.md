@@ -1,5 +1,6 @@
-# Java script game using react
+# Java script Puzzel game using react
 
+<h1>Puzzel Game Draggable</h1>
 This project is designed using React Draggable Lib.
 https://www.npmjs.com/package/react-draggable
 
@@ -8,7 +9,7 @@ https://www.npmjs.com/package/react-draggable
 In the project directory, you can run:
 
 ### `npm start`
-
+<img src="">
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
